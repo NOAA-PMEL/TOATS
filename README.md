@@ -80,8 +80,8 @@ INSTALLATION
 * You may save the notebook (.ipynb) and environment (.yml) file anywhere you wish, but it will be assumed in these instructions that they reside in your Documents folder
 * Go to the start menu and launch the conda prompt
 * From within the prompt, type `cd Documents` 
-* Create the environment by typing `conda env create -f environment.yml`
-* Activate the environment with `conda activate environment` (This step must be done every time you open the jupyter notebook)
+* Create the environment by typing `conda env create -f envTOATS.yml`
+* Activate the environment with `conda activate envTOATS` (This step must be done every time you open the jupyter notebook)
 * Start your jupyter notebook with `jupyter notebook` (This will open jupyter notebook in a browser)
 * From within the jupyter notebook, navigate to and open TOATS.ipynb and follow the instructions contained in the notebook
 
@@ -109,6 +109,10 @@ FAQ
 Q: The code returns a linear regression slope error of zero for my seawater pH time series: pH slope (total scale) = -0.001 ± 0. per year.  Is the error really 0?
 
 A: It is likely that Python is not returning trailing zeros in the standard error rounded to the user-defined decimal place. Try running the notebook again adding one additional decimal place when prompted by the dialogue box at the beginning.
+
+Q: The plots are not displaying properly when running TOATS.ipynb.
+
+A: Try replacing '%matplotlib notebook' with '%matplotlib inline' in the first code block of TOATS.ipynb. This will cause a loss of the interative functions of the plots, but is an alternative to displaying them.
 
 MAINTAINERS
 ------------
