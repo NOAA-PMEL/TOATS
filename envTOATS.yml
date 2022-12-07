@@ -1,4 +1,4 @@
-name: environment
+name: envTOATS
 channels:
   - conda-forge
 dependencies:
