@@ -28,8 +28,6 @@ This open-source code is a package of techniques for assessing trends of ocean a
 
 Data analysists do not need Python programming experience to run the code. The user installs Python, creates and activates the environment, and opens and runs the Jupyter Notebook in a browser, all of which are described in detail here. The user also needs to create a data file that includes a column of datetimes and preceding columns of values for the carbon and carbon-related variables of interest. When the program is run, a user interface at the beginning will guide the file upload and ask the user to input some metadata about the input variables. The program will complete the trend analysis and generate a report for each variable including figures, linear regression statistics, the estimate of the number of years of observations needed to detect a statistically significant trend, and a description of the time series variability and uncertainty. 
 
-THIS IS A PRE-PUBLICATION VERSION OF TOATS. If accepted for publication, a description of the method will be described in the associated open-source paper.
-
 REQUIREMENTS
 ------------
 ***
