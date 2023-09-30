@@ -22,7 +22,7 @@ INTRODUCTION
 ------------
 ***
 
-*Best practices for assessing Trends of Ocean Acidification Time Series (TOATS)* is a supplement to Sutton et al., Advancing best practices for assessing trends of ocean acidification time series, submitted to _Frontiers in Marine Science_ Research Topic “Best Practices in Ocean Observing”.
+*Best practices for assessing Trends of Ocean Acidification Time Series (TOATS)* is a supplement to Sutton AJ, Battisti R, Carter B, Evans W, Newton J, Alin S, Bates NR, Cai W-J, Currie K, Feely RA, Sabine C, Tanhua T, Tilbrook B and Wanninkhof R (2022) Advancing best practices for assessing trends of ocean acidification time series. Front. Mar. Sci. 9:1045667. doi: 10.3389/fmars.2022.1045667.
 
 This open-source code is a package of techniques for assessing trends of ocean acidification time series.  These best practices are best suited for time series capable of characterizing seasonal variability, typically those with sub-seasonal (ideally monthly or more frequent) data collection.  We aim that this package of best practices will help expand the community of practice in ocean acidification trend analysis, testing these and new techniques across a diversity of data sets for future improvement and expansion of this code.  
 
